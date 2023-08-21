@@ -1,9 +1,12 @@
+import Navbar from "./components/Navbar"
+import { ThemeProvider } from "./context/ThemeContext"
+
 function App() {
 
   return (
-    <div>
-    n
-    </div>
+    <ThemeProvider>
+      <Navbar/>
+    </ThemeProvider>
   )
 }
 
